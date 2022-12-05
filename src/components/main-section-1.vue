@@ -26,17 +26,11 @@
 
 <style lang="scss" scoped>
 section {
-    min-height: 70vh;
+    height: 80%;
 }
 
 .container {
-    height: 100%;
-}
-
-.col-container {
-    height: 100%;
-    display: flex;
-    align-items: center;
+    height: calc(100% - 300px);
 }
 
 h2 {
@@ -45,6 +39,7 @@ h2 {
 }
 
 .row {
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -53,6 +48,5 @@ h2 {
 .col {
     width: 50%;
     padding: 0 6.25rem;
-    margin: 3.125rem 0;
 }
 </style>

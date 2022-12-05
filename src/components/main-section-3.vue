@@ -16,7 +16,7 @@
 
 <style lang="scss" scoped>
 section {
-    min-height: 20vh;
+    min-height: 30%;
     background-color: var(--green);
     position: relative;
     display: flex;
