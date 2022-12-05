@@ -1,9 +1,11 @@
 <script>
 import appNavbar from './header-navbar.vue';
+import appHero from './header-hero.vue';
 
 export default {
     components: {
-        appNavbar
+        appNavbar,
+        appHero
     },
     props: {
         msg: String
@@ -14,6 +16,7 @@ export default {
 <template>
     <header>
         <appNavbar/>
+        <appHero/>
         <h1>{{ msg }}</h1>
     </header>
 </template>

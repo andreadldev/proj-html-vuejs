@@ -1,6 +1,17 @@
+:root {
+    --background: #22213d;
+}
+
 .list-inline {
     display: flex;
     * {
         margin: 0 0.95rem;
     }
 }
+
+.btn-green {
+    background-color: #39febe;
+    padding: 1.25rem 3.125rem;
+    border: none;
+    cursor: pointer;
+} 

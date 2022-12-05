@@ -17,10 +17,16 @@
 <style lang="scss" scoped>
 .debug {
     border: 2px solid orange;
+    color: white;
 }
 
 nav {
     padding: 1.25rem 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
 }
 
 .container {
