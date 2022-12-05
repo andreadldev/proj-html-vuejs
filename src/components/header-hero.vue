@@ -23,6 +23,7 @@ section {
     width: 100%;
     position: relative;
     display: flex;
+    align-items: center;
     z-index: 0;
     background-image: url('../css/img/hero.jpg');
     background-repeat: no-repeat;

@@ -1,9 +1,11 @@
 <script>
-import sectionOne from './main-section-1.vue'
+import sectionOne from './main-section-1.vue';
+import sectionTwo from './main-section-2.vue';
 
 export default {
     components: {
-        sectionOne
+        sectionOne,
+        sectionTwo
     }
 }
 </script>
@@ -11,11 +13,9 @@ export default {
 <template>
     <main>
         <sectionOne/>
+        <sectionTwo/>
     </main>
 </template>
 
 <style lang="scss" scoped>
-main {
-    height: 100%;
-}
 </style>
