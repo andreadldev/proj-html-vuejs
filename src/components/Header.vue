@@ -17,9 +17,13 @@ export default {
     <header>
         <appNavbar/>
         <appHero/>
-        <h1>{{ msg }}</h1>
+        <!-- <h1>{{ msg }}</h1> -->
     </header>
 </template>
 
 <style lang="scss" scoped>
+
+header {
+    background-color: var(--background);
+}
 </style>

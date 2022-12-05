@@ -27,7 +27,7 @@ section {
     background-image: url('../css/img/hero.jpg');
     background-repeat: no-repeat;
     background-position: right 0;
-    background-size: 65% cover;
+    background-size: 65% 1;
 }
 
 section:before {
@@ -36,7 +36,6 @@ section:before {
     height: 100%;
     width: calc(100% - 1200px);
     min-width: 35vw;
-    background-color: var(--background);
     z-index: -10;
     position: absolute;
 }
