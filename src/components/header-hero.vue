@@ -4,7 +4,7 @@
             <div class="block">
                 <span>ALWAYS THE BEST WAY YOU NEED IT</span>
                 <h1>THE BEST BUSINESS CONSULTING</h1>
-                <button class="btn-green">READ MORE</button>
+                <button class="btn">READ MORE</button>
             </div>
         </div>
     </section>
@@ -16,6 +16,10 @@
     .block {
         border: 1px solid yellow;
     }
+}
+
+.btn {
+    background-color: var(--green);
 }
 
 section {

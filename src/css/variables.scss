@@ -1,5 +1,7 @@
 :root {
     --background: #22213d;
+    --green: #39febe;
+    --red: #f71e3a;
 }
 
 .list-inline {
@@ -9,8 +11,7 @@
     }
 }
 
-.btn-green {
-    background-color: #39febe;
+.btn {
     padding: 1.25rem 3.125rem;
     border: none;
     cursor: pointer;
