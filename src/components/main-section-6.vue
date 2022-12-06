@@ -32,6 +32,7 @@ section {
     color: white;
     display: flex;
     align-items: center;
+    padding-bottom: 12.5rem;
 }
 
 .row {

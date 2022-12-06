@@ -5,6 +5,7 @@ import sectionThree from './main-section-3.vue';
 import sectionFour from './main-section-4.vue';
 import sectionFive from './main-section-5.vue';
 import sectionSix from './main-section-6.vue';
+import sectionPreFooter from './main-section-prefooter.vue';
 
 export default {
     components: {
@@ -13,7 +14,8 @@ export default {
         sectionThree,
         sectionFour,
         sectionFive,
-        sectionSix
+        sectionSix,
+        sectionPreFooter
     }
 }
 </script>
@@ -37,6 +39,9 @@ export default {
 
         <!-- BLOG -->
         <sectionSix/>
+
+        <!-- PREFOOTER -->
+        <sectionPreFooter/>
     </main>
 </template>
 
