@@ -27,19 +27,19 @@ export default {
             </nav>
             <div class="list-inline">
                 <button>
-                    1
+                    <font-awesome-icon icon="fa-brands fa-instagram" />
                 </button>
 
                 <button>
-                    2
+                    <font-awesome-icon icon="fa-brands fa-linkedin-in" />
                 </button>
 
                 <button>
-                    3
+                    <font-awesome-icon icon="fa-brands fa-facebook-f" />
                 </button>
                 
                 <button>
-                    4
+                    <font-awesome-icon icon="fa-brands fa-twitter" />
                 </button>
             </div>
         </div>
@@ -53,5 +53,20 @@ export default {
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid white;
+}
+
+button {
+    background-color: inherit;
+    border: none;
+    color: white;
+}
+
+div.list-inline * {
+    margin: 0 0.3rem;
+    cursor: pointer;
+}
+
+li:before {
+    display: none !important;
 }
 </style>

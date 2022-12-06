@@ -22,7 +22,7 @@ header, footer {
             color: white;
         }
 
-        &:hover:before {
+        &:hover:before, &:first-child:before {
             content: '';
             display: block;
             height: 5px;
@@ -30,6 +30,9 @@ header, footer {
             background-color: white;
             position: absolute;
             top: -21px;
+        }
+        &:first-child {
+            color: white;
         }
     }
 }
