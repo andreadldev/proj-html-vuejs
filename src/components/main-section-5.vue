@@ -36,6 +36,7 @@ section {
     span:before {
         position: absolute;
         left: calc(100% - 45px);
+        top: 14px;
     }
 }
 

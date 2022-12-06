@@ -1,7 +1,9 @@
 <template>
-    <section>
-        <h3>LET'S TALK ABOUT WORK</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, nostrum.</p>
+    <section id="prefooter">
+        <h2>LET'S TALK ABOUT WORK</h2>
+        <p>
+            A wonderful serenity has taken posession Far far away, behind the word mountains.
+        </p>
         <button class="btn">GET STARTED</button>
     </section>
 </template>
@@ -17,6 +19,13 @@ section {
     align-items: center;
     justify-content: center;
     color: white;
+}
+
+p {
+    width: 25%;
+    text-align: center;
+    margin: 10px 0;
+    margin-bottom: 25px;
 }
 
 .btn {

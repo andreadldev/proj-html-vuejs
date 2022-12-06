@@ -11,13 +11,12 @@ export default {
 </template>
 
 <style lang="scss">
-header {
+header, footer {
     li {
         position: relative;
         display: flex;
         justify-content: center;
         cursor: pointer;
-        color: lightgray;
 
         &:hover {
             color: white;

@@ -70,7 +70,7 @@ h3:after {
     width: 100%;
     background-color: var(--green);
     position: absolute;
-    top: 20px;
+    top: 18px;
     left: 50%;
 }
 

@@ -14,7 +14,7 @@
 
 <style lang="scss" scoped>
 section {
-    padding: 272px 0;
+    padding: 240px 0;
     width: 100%;
     display: flex;
     align-items: center;

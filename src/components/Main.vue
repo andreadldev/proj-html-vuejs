@@ -57,7 +57,7 @@ span:before {
     content: '';
     display: block;
     position: absolute;
-    top: 6px;
+    top: 8px;
     left: -60px;
     width: 45px;
     height: 3px;
