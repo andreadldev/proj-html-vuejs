@@ -20,7 +20,7 @@
 }
 
 section {
-    height: 80%;
+    padding: 272px 0;
     width: 100%;
     display: flex;
     align-items: center;
@@ -28,8 +28,6 @@ section {
     background-repeat: no-repeat;
     background-position: left 0;
     background-size: 65% 1;
-    
-    background-color: var(--background);
     color: white;
 }
 

@@ -1,5 +1,5 @@
 <template>
-    <nav class="debug">
+    <nav>
         <div class="container">
             <img src="../css/img/logotype.png" alt="...">
             <ul class="list-inline">
@@ -15,11 +15,6 @@
 </template>
 
 <style lang="scss" scoped>
-.debug {
-    border: 2px solid orange;
-    color: white;
-}
-
 nav {
     padding: 1.25rem 0;
     position: absolute;

@@ -27,12 +27,10 @@
 
 <style lang="scss" scoped>
 section {
-    min-height: 80%;
-    background-color: var(--background);
     color: white;
     display: flex;
     align-items: center;
-    padding-bottom: 12.5rem;
+    padding: 12.5rem 0;
 }
 
 .row {

@@ -20,8 +20,7 @@
 
 <style lang="scss" scoped>
 section {
-    min-height: 80%;
-    background-color: var(--background);
+    padding: 10rem 0;
     color: white;
     display: flex;
     align-items: center;

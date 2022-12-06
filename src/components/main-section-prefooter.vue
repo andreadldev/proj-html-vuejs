@@ -8,8 +8,8 @@
 
 <style lang="scss" scoped>
 section {
+    padding: 10rem 0;
     width: 100%;
-    height: calc(50% - 5px);
     background-image: url('../css/img/prefooter.jpg');
     background-repeat: no-repeat;
     display: flex;

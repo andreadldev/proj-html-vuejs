@@ -26,20 +26,16 @@
 
 <style lang="scss" scoped>
 section {
-    height: 80%;
-}
-
-.container {
-    height: calc(100% - 300px);
+    background-color: white;
+    padding-top: 112px;
+    padding-bottom: 160px;
 }
 
 h2 {
-    padding-top: 5rem;
-    padding-bottom: 2.1875rem;
+    padding-bottom: 32px;
 }
 
 .row {
-    height: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -47,6 +43,6 @@ h2 {
 
 .col {
     width: 50%;
-    padding: 0 6.25rem;
+    padding: 5rem 6.25rem;
 }
 </style>

@@ -20,11 +20,3 @@ export default {
         <!-- <h1>{{ msg }}</h1> -->
     </header>
 </template>
-
-<style lang="scss" scoped>
-
-header {
-    background-color: var(--background);
-    height: 100%;
-}
-</style>

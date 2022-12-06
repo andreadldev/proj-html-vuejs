@@ -1,5 +1,5 @@
 <template>
-    <section class="debug">
+    <section>
         <div class="container">
             <div class="block">
                 <span>ALWAYS THE BEST WAY YOU NEED IT</span>
@@ -11,19 +11,13 @@
 </template>
 
 <style lang="scss" scoped>
-
-.debug {
-    .block {
-        border: 1px solid yellow;
-    }
-}
-
 .btn {
     background-color: var(--green);
 }
 
 section {
-    height: 100%;
+    max-height: 100vh;
+    padding: 264px 0;
     width: 100%;
     position: relative;
     display: flex;

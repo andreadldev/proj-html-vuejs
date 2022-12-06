@@ -30,11 +30,9 @@
 
 <style lang="scss" scoped>
 section {
-    background-color: var(--background);
     color: white;
     display: flex;
     align-items: center;
-    padding-bottom: 80px;
 }
 
 #testimonial {
