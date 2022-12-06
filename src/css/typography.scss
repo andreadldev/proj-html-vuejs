@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
 
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 ol, ul, li {
     list-style: none;
 }
@@ -13,8 +16,16 @@ h1 {
     font-size: 6rem;
 }
 
+h2 {
+    font-size: 3rem;
+}
+
 h3 {
     font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
 }
 
 button, header span {
@@ -23,7 +34,6 @@ button, header span {
 }
 
 header {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     h1 {
         line-height: 1;
@@ -33,5 +43,50 @@ header {
     }
     button {
         font-size: 1rem;
+    }
+    span {
+        color: gray;
+    }
+}
+
+main section {
+    color: var(--background);
+
+    span {
+        color: gray;
+    }
+}
+
+#consultants {
+    p {
+        color: gray;
+    }
+}
+
+#about-us {
+    p {
+        color: gray;
+        line-height: 1.3;
+    }
+}
+
+#mid-green {
+    p {
+        color: var(--darkgrey);
+    }
+    button {
+        color: white;
+    }
+}
+
+#testimonial {
+    .card span {
+        left: 0;
+    }
+    .card span:before {
+        display: none;
+    }
+    p {
+        color: var(--darkgrey);
     }
 }

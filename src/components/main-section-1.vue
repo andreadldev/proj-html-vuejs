@@ -30,12 +30,12 @@ export default {
 </script>
 
 <template>
-    <section>
+    <section id="consultants">
         <div class="container">
             <h3>OUR CONSULTANTS CAN HELP YOU</h3>
                 <div class="row">
                     <div class="col" v-for="col in this.list">
-                        <h2>{{col.title}}</h2>
+                        <h4>{{col.title}}</h4>
                         <p>{{col.description}}</p>
                         <img :src=col.icon alt="...">
                     </div>
@@ -58,7 +58,7 @@ section {
 
 }
 
-h2, h3 {
+h3, h4 {
     padding-bottom: 1rem;
     position: relative;
 }
@@ -85,9 +85,6 @@ h3:after {
     width: 50%;
     padding: 5rem 6.25rem;
     position: relative;
-    p {
-        color: #353535;
-    }
     img {
         position: absolute;
         top: 62px;

@@ -1,11 +1,11 @@
 <template>
-    <section>
+    <section id="about-us">
         <div class="container">
             <div class="block">
                 <span>ABOUT US</span>
                 <h2>WE MAKE YOUR STRATEGY WORK</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa at voluptatum, quisquam excepturi tempore vero magnam iste similique dignissimos deserunt, eveniet exercitationem temporibus totam iusto? Earum officiis sapiente explicabo recusandae.
+                    When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknown plants are noticed when i hear the buzz of the little world among the stalks, and grow familiar indescribable forms of the insects and flies, then i feel the presence of the Almighty.
                 </p>
             </div>
         </div>

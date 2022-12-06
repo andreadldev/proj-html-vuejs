@@ -45,5 +45,23 @@ export default {
     </main>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
+main {
+    span {
+    display: inline-block;
+    position: relative;
+    left: 60px;
+}
+
+span:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: -60px;
+    width: 45px;
+    height: 3px;
+    background-color: var(--green);
+}
+}
 </style>

@@ -1,12 +1,12 @@
 <template>
-    <section>
+    <section id="mid-green">
         <div class="container">
             <div class="col">
                 <h3>WE HELP TO DELIVER THE BUSINESS CASE</h3>
             </div>
             <div class="col">
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, eum. Ab, omnis dolore. Possimus, repellendus doloremque consequuntur neque dignissimos, assumenda vitae, quaerat quidem fugit sit maiores inventore illo nostrum repudiandae.
+                    When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknown
                 </p>
             </div>
             <button class="btn">GET STARTED</button>
@@ -31,6 +31,12 @@ section {
 
 .col {
     width: 50%;
+    h3 {
+        width: 50%;
+    }
+    h3, p {
+        margin-left: 120px;
+    }
 }
 
 .btn {
