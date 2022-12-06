@@ -1,3 +1,19 @@
+<script>
+import { store } from '../js/store.js';
+import menuItems from '../components/menuItems.vue'
+
+export default {
+    components: {
+        menuItems
+    },
+    data() {
+        return {
+            store
+        }
+    }
+}
+</script>
+
 <template>
     <section>
         <div class="container">
@@ -6,12 +22,7 @@
             </div>
             <nav>
                 <ul class="list-inline">
-                    <li>HOME</li>
-                    <li>ABOUT</li>
-                    <li>PROJECTS</li>
-                    <li>SERVICES</li>
-                    <li>BLOG</li>
-                    <li>CONTACT</li>
+                    <menuItems  v-for="(element,index) in store.menuItems" :key="index" :element="element"/>
                 </ul>
             </nav>
             <div class="list-inline">
