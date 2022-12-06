@@ -1,11 +1,37 @@
 <script>
 export default {
     props: {
-        element: String
+        item: String
     }
 }
 </script>
 
 <template>
-    <li>{{element}}</li>
+    <li>{{item}}</li>
 </template>
+
+<style lang="scss">
+header {
+    li {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        color: lightgray;
+
+        &:hover {
+            color: white;
+        }
+
+        &:hover:before {
+            content: '';
+            display: block;
+            height: 5px;
+            width: 20px;
+            background-color: white;
+            position: absolute;
+            top: -21px;
+        }
+    }
+}
+</style>

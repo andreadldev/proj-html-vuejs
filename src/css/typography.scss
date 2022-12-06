@@ -1,16 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+
 ol, ul, li {
     list-style: none;
 }
 
+h1, h2, h3, h4, h5 {
+    font-family: 'Exo', sans-serif;
+}
+
 h1 {
-    font-size: 4.8rem;
+    font-size: 5rem;
 }
 
 h3 {
     font-size: 2rem;
 }
 
+button, header span {
+    font-family: 'Ubuntu Mono', monospace;
+    letter-spacing: 1px;
+}
+
 header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+    nav {
+        font-size: 0.84rem;
+    }
+    button {
+        font-size: 1rem;
+    }
 }

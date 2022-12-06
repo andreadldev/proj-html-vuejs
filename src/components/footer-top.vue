@@ -22,7 +22,7 @@ export default {
             </div>
             <nav>
                 <ul class="list-inline">
-                    <menuItems  v-for="(element,index) in store.menuItems" :key="index" :element="element"/>
+                    <menuItems  v-for="(item,index) in store.menuItems" :key="index" :item="item"/>
                 </ul>
             </nav>
             <div class="list-inline">

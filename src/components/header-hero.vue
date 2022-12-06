@@ -11,10 +11,6 @@
 </template>
 
 <style lang="scss" scoped>
-.btn {
-    background-color: var(--green);
-}
-
 section {
     max-height: 100vh;
     padding: 265px 0;
@@ -45,5 +41,30 @@ section:before {
         display: inline-block;
         margin: 0.9rem 0;
     }
+}
+
+h1 {
+    width: 95%;
+}
+
+span {
+    display: inline-block;
+    position: relative;
+    left: 60px;
+}
+
+span:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: -60px;
+    width: 45px;
+    height: 3px;
+    background-color: var(--green);
+}
+
+.btn {
+    background-color: var(--green);
 }
 </style>

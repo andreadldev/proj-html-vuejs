@@ -6,9 +6,6 @@ export default {
     components: {
         appNavbar,
         appHero
-    },
-    props: {
-        msg: String
     }
 }
 </script>
@@ -17,6 +14,5 @@ export default {
     <header>
         <appNavbar/>
         <appHero/>
-        <!-- <h1>{{ msg }}</h1> -->
     </header>
 </template>

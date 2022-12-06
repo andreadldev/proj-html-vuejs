@@ -19,7 +19,7 @@ export default {
         <div class="container">
             <img src="../css/img/logotype.png" alt="...">
             <ul class="list-inline">
-                <menuItems  v-for="(element,index) in store.menuItems" :key="index" :element="element"/>
+                <menuItems  v-for="(item,index) in store.menuItems" :key="index" :item="item"/>
             </ul>
         </div>
     </nav>
