@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 6rem;
 }
 
 h3 {
@@ -25,6 +25,9 @@ button, header span {
 header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+    h1 {
+        line-height: 1;
+    }
     nav {
         font-size: 0.84rem;
     }

@@ -5,6 +5,9 @@
                 <span>ALWAYS THE BEST WAY YOU NEED IT</span>
                 <h1>THE BEST BUSINESS CONSULTING</h1>
                 <button class="btn">READ MORE</button>
+                <div class="btn-rounded">
+                    <font-awesome-icon icon="fa-solid fa-play" />
+                </div>
             </div>
         </div>
     </section>
@@ -37,14 +40,25 @@ section:before {
 
 .block {
     width: 50%;
+    position: relative;
     * {
         display: inline-block;
         margin: 0.9rem 0;
     }
 }
 
-h1 {
-    width: 95%;
+.btn {
+    background-color: var(--green);
+}
+
+.btn-rounded {
+    background-color: inherit;
+    color: var(--green);
+    border: 2px solid white;
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    left: 220px;
 }
 
 span {
@@ -61,10 +75,6 @@ span:before {
     left: -60px;
     width: 45px;
     height: 3px;
-    background-color: var(--green);
-}
-
-.btn {
     background-color: var(--green);
 }
 </style>
