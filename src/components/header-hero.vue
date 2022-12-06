@@ -17,7 +17,7 @@
 
 section {
     max-height: 100vh;
-    padding: 264px 0;
+    padding: 265px 0;
     width: 100%;
     position: relative;
     display: flex;

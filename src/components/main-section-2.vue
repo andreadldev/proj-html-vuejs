@@ -1,5 +1,5 @@
 <template>
-    <section class="debug">
+    <section>
         <div class="container">
             <div class="block">
                 <span>ABOUT US</span>
@@ -13,12 +13,6 @@
 </template>
 
 <style lang="scss" scoped>
-.debug {
-    .block {
-        border: 1px solid yellow;
-    }
-}
-
 section {
     padding: 272px 0;
     width: 100%;
