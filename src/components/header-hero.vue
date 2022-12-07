@@ -2,7 +2,7 @@
     <section>
         <div class="container">
             <div class="block">
-                <span>ALWAYS THE BEST WAY YOU NEED IT</span>
+                <span class="custom">ALWAYS THE BEST WAY YOU NEED IT</span>
                 <h1>THE BEST BUSINESS CONSULTING</h1>
                 <button class="btn">READ MORE</button>
                 <div class="btn-rounded">
@@ -46,6 +46,10 @@ section {
         margin: 0.9rem 0;
     }
 
+    span.custom:before {
+        top: 6px;
+    }
+
     .btn {
     background-color: var(--green);
     }
@@ -59,21 +63,5 @@ section {
         bottom: 10px;
         left: 220px;
     }
-
-    span {
-        position: relative;
-        left: 60px;
-        &:before {
-            content: '';
-            display: block;
-            position: absolute;
-            top: 6px;
-            left: -60px;
-            width: 45px;
-            height: 3px;
-            background-color: var(--green);
-        }
-    }
 }
-
 </style>

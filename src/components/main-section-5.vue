@@ -2,7 +2,7 @@
     <section id="testimonial">
         <div class="container">
             <div id="testimonial-title">
-                <span>TESTIMONIAL</span>
+                <span class="custom">TESTIMONIAL</span>
             </div>
             <div id="title">
                 <h3>WHAT'S THE CUSTOMER SAY ABOUT OUR WORK</h3>

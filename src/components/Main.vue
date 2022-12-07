@@ -44,23 +44,3 @@ export default {
         <sectionPreFooter/>
     </main>
 </template>
-
-<style lang="scss">
-main {
-    span {
-    display: inline-block;
-    position: relative;
-    left: 60px;
-    &:before {
-        content: '';
-        display: block;
-        position: absolute;
-        top: 8px;
-        left: -60px;
-        width: 45px;
-        height: 3px;
-        background-color: var(--green);
-    }
-}
-}
-</style>

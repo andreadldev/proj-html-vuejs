@@ -13,6 +13,21 @@
     }
 }
 
+span.custom {
+    position: relative;
+    left: 60px;
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 8px;
+        left: -60px;
+        width: 45px;
+        height: 3px;
+        background-color: var(--green);
+    }
+}
+
 .btn {
     padding: 1.25rem 3.125rem;
     border: none;

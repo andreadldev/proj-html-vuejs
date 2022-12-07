@@ -62,7 +62,8 @@ main section {
 }
 
 #project, #testimonial-title, #blog-title {
-    span {
+    span.custom {
+        display: inline-block;
         padding-bottom: 15px;
     }
 }
@@ -116,8 +117,11 @@ main section {
 
 // ==========SECTION 4==========
 #project {
+    .custom {
+        padding-bottom: 10px;
+    }
     h3 {
-        width: 40%;
+        width: 80%;
     }
 }
 

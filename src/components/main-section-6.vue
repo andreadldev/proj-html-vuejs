@@ -12,7 +12,7 @@ export default {
     <section id="blog">
         <div class="container">
             <div id="blog-title">
-                <span>BLOG</span>
+                <span class="custom">BLOG</span>
             </div>
             <header>
                 <h3>THE RECENT NEWS YOU MUST READ IT</h3>
@@ -22,7 +22,7 @@ export default {
                 <div class="card" v-for="card, index in 2">
                     <img :src=this.images[index] alt="...">  
                     <div class="info">
-                        <span>july 4, 2019 by paul</span>
+                        <span>july 4, 2019 &nbsp &nbsp by paul</span>
                         <h4>Canadian Consulting Firm acquired by UK Giant</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quis quae, suscipit a quisquam exercitationem quo temporibus architecto modi aliquam magnam fugit molestiae consequatur veniam vero possimus! Repellendus, eligendi iure.</p>
                     </div>
