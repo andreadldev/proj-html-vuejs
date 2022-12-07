@@ -50,45 +50,28 @@ section {
     padding-top: 96px;
     padding-bottom: 160px;
     overflow: hidden;
-}
 
-.container {
-    width: 70%;
-    padding: 0 6.25rem;
-
-}
-
-h3, h4 {
-    padding-bottom: 1rem;
-    position: relative;
-}
-
-h3:after {
-    content: '';
-    display: block;
-    height: 3px;
-    width: 100%;
-    background-color: var(--green);
-    position: absolute;
-    top: 18px;
-    left: 50%;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    padding-left: 6rem;
-}
-
-.col {
-    width: 50%;
-    padding: 5rem 6.25rem;
-    position: relative;
-    img {
-        position: absolute;
-        top: 62px;
-        left: 0;
+    .container {
+        width: 70%;
+        padding: 0 6.25rem;
     }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        padding-left: 6rem;
+    }
+
+    .col {
+            width: 50%;
+            padding: 5rem 6.25rem;
+            position: relative;
+            img {
+                position: absolute;
+                top: 62px;
+                left: 0;
+            }
+        }
 }
 </style>

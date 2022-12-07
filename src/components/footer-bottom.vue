@@ -1,13 +1,5 @@
 <script>
 export default {
-    methods: {
-        scrollTop() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                document.getElementById('scrollToTop').style.display = "block";
-            } else {
-                document.getElementById('scrollToTop').style.display = "none";}
-        }
-    },
     created() {
         window.addEventListener('scroll', this.handleScroll);
     },
@@ -45,31 +37,27 @@ export default {
 <style lang="scss" scoped>
 section {
     padding: 3rem 0;
-}
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+    }
 
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-}
+    #policy {
+        display: flex;
+        flex-direction: column;
+    }
 
-#policy {
-    display: flex;
-    flex-direction: column;
-}
-
-button {
-    position: fixed;
-    bottom: 50px;
-    right: 130px;
-    box-shadow: 1px 1px 0.5px 1px black;
-}
-
-#scrollTop {
-    border: none;
-    background-color: white;
-    color: black;
-    display: none;
+    #scrollTop {
+        position: fixed;
+        bottom: 50px;
+        right: 130px;
+        box-shadow: 1px 1px 0.5px 1px black;
+        border: none;
+        background-color: white;
+        color: black;
+        display: none;
+    }
 }
 </style>

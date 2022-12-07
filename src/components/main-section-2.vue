@@ -14,7 +14,7 @@
 
 <style lang="scss" scoped>
 section {
-    padding: 240px 0;
+    padding: 15rem 0;
     width: 100%;
     display: flex;
     align-items: center;
@@ -23,28 +23,27 @@ section {
     background-position: left 0;
     background-size: 65% 1;
     color: white;
-}
-
-section:before {
-    content: '';
-    display: block;
-    height: 100%;
-    width: calc(100% - 1200px);
-    min-width: 35vw;
-    z-index: -10;
-    position: absolute;
-}
-
-.container {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.block {
-    width: 35%;
-    * {
+    &:before {
+        content: '';
         display: block;
-        margin: 0.9rem 0;
+        height: 100%;
+        width: calc(100% - 1200px);
+        min-width: 35vw;
+        z-index: -10;
+        position: absolute;
+    }
+
+    .container {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .block {
+        width: 35%;
+        * {
+            display: block;
+            margin: 0.9rem 0;
+        }
     }
 }
 </style>

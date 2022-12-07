@@ -17,9 +17,3 @@ export default {
         <footerBottom/>
     </footer>
 </template>
-
-<style lang="scss" scoped>
-footer {
-    color: white;
-}
-</style>

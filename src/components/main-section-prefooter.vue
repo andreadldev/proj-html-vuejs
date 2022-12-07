@@ -19,17 +19,10 @@ section {
     align-items: center;
     justify-content: center;
     color: white;
-}
 
-p {
-    width: 25%;
-    text-align: center;
-    margin: 10px 0;
-    margin-bottom: 25px;
-}
-
-.btn {
-    background-color: var(--background);
-    color: white;
+    .btn {
+        background-color: var(--background);
+        color: white;
+    }
 }
 </style>

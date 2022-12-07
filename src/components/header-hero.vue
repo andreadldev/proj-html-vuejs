@@ -26,16 +26,16 @@ section {
     background-repeat: no-repeat;
     background-position: right 0;
     background-size: 65% 1;
-}
 
-section:before {
-    content: '';
-    display: block;
-    height: 100%;
-    width: calc(100% - 1200px);
-    min-width: 35vw;
-    z-index: -10;
-    position: absolute;
+    &:before {
+        content: '';
+        display: block;
+        height: 100%;
+        width: calc(100% - 1200px);
+        min-width: 35vw;
+        z-index: -10;
+        position: absolute;
+    }
 }
 
 .block {
@@ -45,36 +45,35 @@ section:before {
         display: inline-block;
         margin: 0.9rem 0;
     }
-}
 
-.btn {
+    .btn {
     background-color: var(--green);
+    }
+
+    .btn-rounded {
+        background-color: inherit;
+        color: var(--green);
+        border: 2px solid white;
+        display: flex;
+        position: absolute;
+        bottom: 10px;
+        left: 220px;
+    }
+
+    span {
+        position: relative;
+        left: 60px;
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 6px;
+            left: -60px;
+            width: 45px;
+            height: 3px;
+            background-color: var(--green);
+        }
+    }
 }
 
-.btn-rounded {
-    background-color: inherit;
-    color: var(--green);
-    border: 2px solid white;
-    display: flex;
-    position: absolute;
-    bottom: 10px;
-    left: 220px;
-}
-
-span {
-    display: inline-block;
-    position: relative;
-    left: 60px;
-}
-
-span:before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 6px;
-    left: -60px;
-    width: 45px;
-    height: 3px;
-    background-color: var(--green);
-}
 </style>

@@ -25,50 +25,38 @@ section {
     color: white;
     display: flex;
     align-items: center;
-}
 
-#testimonial-title {
-    text-align: center;
-    span {
-        width: 100%;
-        left: 0;
+    #testimonial-title {
+        text-align: center;
+        span {
+            width: 100%;
+            left: 0;
+            &:before {
+                position: absolute;
+                left: calc(100% - 45px);
+                top: 14px;
+            }
+        }
     }
-    span:before {
-        position: absolute;
-        left: calc(100% - 45px);
-        top: 14px;
+    #title {
+        display: flex;
+        justify-content: flex-end;
+        text-align: right;
     }
-}
-
-#title {
-    display: flex;
-    justify-content: flex-end;
-    text-align: right;
-}
-
-h3 {
-    width: 40%;
-    margin: 1.875rem 0;
-}
-
-h4 {
-    margin-top: 3.125rem;
-}
-
-.row {
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    color: black;
-}
-
-.card {
-    width: calc(100% / 3 - 15px);
-    margin-top: 2.5rem;
-    margin-bottom: 3.125rem;
-    padding: 0 2.5rem;
-    span {
-    margin-bottom: 1.25rem;
-}
+    .row {
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        color: black;
+    }
+    .card {
+        width: calc(100% / 3 - 15px);
+        margin-top: 2.5rem;
+        margin-bottom: 3.125rem;
+        padding: 0 2.5rem;
+        span {
+            margin-bottom: 1.25rem;
+        }
+    }
 }
 </style>

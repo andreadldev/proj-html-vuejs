@@ -38,51 +38,49 @@ section {
     display: flex;
     align-items: center;
     padding: 12.5rem 0;
-}
-
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 25px;
-}
-
-.btn {
-    background-color: var(--green);
-}
-
-.row {
-    display: flex;
-    justify-content: space-between;
-}
-
-.card {
-    width: calc(100% / 2 - 15px);
-    margin-top: 1.25rem;
-    margin-bottom: 1.875rem;
-    position: relative;
-}
-
-.info {
-    background-color: white;
-    color: black;
-    width: 75%;
-    padding: 50px;
-    position: absolute;
-    right: 0;
-    bottom: -75px;
-
-    span {
-        color: red;
-        left: 0;
+    
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 25px;
+        .btn {
+            background-color: var(--green);
+        }
     }
 
-    span:before {
-        display: none;
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card {
+        width: calc(100% / 2 - 15px);
+        margin-top: 1.25rem;
+        margin-bottom: 1.875rem;
+        position: relative;
+        img {
+            width: 100%;
+        }
+        .info {
+            background-color: white;
+            color: black;
+            width: 75%;
+            padding: 50px;
+            position: absolute;
+            right: 0;
+            bottom: -75px;
+
+            span {
+                color: red;
+                left: 0;
+                &:before {
+                    display: none;
+                }
+            }
+        }
     }
 }
 
-img {
-    width: 100%;
-}
+
 </style>

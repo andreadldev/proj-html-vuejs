@@ -16,33 +16,32 @@
 
 <style lang="scss" scoped>
 section {
+    height: 100%;
     max-height: 30%;
-    padding: 112px;
     background-color: var(--green);
-    position: relative;
     display: flex;
     align-items: center;
-}
 
-.container {
-    display: flex;
-    align-items: center;
-}
-
-.col {
-    width: 50%;
-    h3 {
+    .container {
+        display: flex;
+        align-items: center;
+        position: relative;
+        height: 100%;
+        padding: 7rem;
+    }
+    
+    .col {
         width: 50%;
+        height: 100%;
     }
-    h3, p {
-        margin-left: 120px;
+
+    .btn {
+        background-color: var(--red);
+        position: absolute;
+        bottom: 0;
+        right: 0;
     }
 }
 
-.btn {
-    background-color: var(--red);
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
+
 </style>

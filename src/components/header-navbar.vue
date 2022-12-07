@@ -33,15 +33,15 @@ nav {
     left: 0;
     right: 0;
     z-index: 100;
-}
 
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-img {
-    width: 6.25rem;
+    img {
+        width: 6.25rem;
+    }
 }
 </style>

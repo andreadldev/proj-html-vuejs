@@ -53,20 +53,20 @@ export default {
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid white;
-}
 
-button {
-    background-color: inherit;
-    border: none;
-    color: white;
-}
+    button {
+        background-color: inherit;
+        border: none;
+        color: white;
+    }
 
-div.list-inline * {
-    margin: 0 0.3rem;
-    cursor: pointer;
-}
+    div.list-inline * {
+        margin: 0 0.3rem;
+        cursor: pointer;
+    }
 
-li:before {
-    display: none !important;
+    li:before {
+        display: none !important;
+    }
 }
 </style>
